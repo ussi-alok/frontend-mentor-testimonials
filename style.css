@@ -18,19 +18,35 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */padding: 10px;
 }
 .card{
     display: grid;
-    grid: repeat(2,1fr)/repeat(3,1.1fr) 1.6fr;
-    width: 70vw;
+    grid: repeat(2,1fr)/repeat(3,1.5fr) 1.6fr;
+    width: 80vw;
     gap: 30px;
 }
 
 .card>*{
-    border-radius: 20px;
+    border-radius: 15px;
+    text-wrap: wrap;
+    padding: 20px;
 }
 
+img{
+    border-radius:50%;
+}
+img,.name,.designation,.summary{
+    position: relative;
+}
+.name,.designation{
+    top: -55px;
+    left: 75px;
+}
+.summary{
+    left:0;
+    top: -30px;
+}
 .first_card{
     background-color: var(--clr-primary-violet);
     grid-area: 1/1/2/3;
@@ -49,5 +65,5 @@ body{
 }
 .fifth_card{
     background-color: var(--clr-primary-white);
-    grid-area: 1/-2/-1/-1;padding:20px;
+    grid-area: 1/4/3/5;
 }
