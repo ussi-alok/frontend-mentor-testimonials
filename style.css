@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-size: 13px;
+    font-family: myFont;
 }
 :root{
     --clr-primary-violet:hsl(263, 55%, 52%);
@@ -12,6 +13,10 @@
     --clr-neutral-light-gray:hsl(0, 0%, 81%);
     --clr-neutral-light-grayish-blue:hsl(210, 46%, 95%);
 }
+@font-face {
+    font-family: myFont;
+    src: url(./BarlowSemiCondensed-Regular.ttf);
+  }
 
 body{
     background-color: var(--clr-neutral-light-grayish-blue);
@@ -69,6 +74,7 @@ img,.name,.designation,.summary{
 .summary{
     left:0;
     top: -30px;
+    font-weight: 800;
 }
 .brief,.designation{
     opacity: 50%;
