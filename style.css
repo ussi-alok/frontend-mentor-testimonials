@@ -39,7 +39,7 @@ body{
     padding: 20px;
 }
 
-
+/* outer structure of card style goes here*/
 .first_card{
     background-color: var(--clr-primary-violet);
     grid-area: 1/1/2/3;
@@ -61,7 +61,7 @@ body{
     grid-area: 1/4/3/5;
 }
 
-
+/* card items style goes here */
 img{
     border-radius:50%;
 }
