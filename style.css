@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-size: 13px;
 }
 :root{
     --clr-primary-violet:hsl(263, 55%, 52%);
@@ -10,4 +11,21 @@
     --clr-primary-white:hsl(0, 0%, 100%);
     --clr-neutral-light-gray:hsl(0, 0%, 81%);
     --clr-neutral-light-grayish-blue:hsl(210, 46%, 95%);
+}
+
+
+.first_card{
+    background-color: var(--clr-primary-violet);
+}
+.second_card{
+    background-color: var(--clr-primary-dark-grayish-blue);
+}
+.third_card{
+    background-color: var(--clr-primary-white);
+}
+.fourth_card{
+    background-color: var(--clr-primary-dark-blackish-blue);
+}
+.fifth_card{
+    background-color: var(--clr-primary-white);
 }
