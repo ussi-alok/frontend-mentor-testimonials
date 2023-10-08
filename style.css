@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --clr-primary-violet:hsl(263, 55%, 52%);
+    --clr-primary-dark-grayish-blue:hsl(217, 19%, 35%);
+    --clr-primary-dark-blackish-blue:hsl(219, 29%, 14%);
+    --clr-primary-white:hsl(0, 0%, 100%);
+    --clr-neutral-light-gray:hsl(0, 0%, 81%);
+    --clr-neutral-light-grayish-blue:hsl(210, 46%, 95%);
+}
